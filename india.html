@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India News</title>
+</head>
+<style>
+
+#main{
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        background-color: white;
+        z-index: 30;
+    }
+
+    #nav{
+        display: flex;
+        width: 100%;
+        /* height: 80px; */
+        /* border: 1px solid saddlebrown; */
+        background-color: black;
+        color: white;
+     
+    }
+    #head{
+        margin: auto;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
+    #logo{
+        width: 30%;
+        /* border: 1px solid salmon; */
+       background-color: black;
+    }
+
+    .first{
+        width: 30px;
+        height: 30px;
+        padding-right: 2%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+    #content{
+        display: flex;
+        width: 70%;
+        padding: 9px 10px 8px 10px;
+        margin: auto;
+        /* border: 1px solid saddlebrown; */
+       justify-content: space-between;
+        cursor: pointer;
+        font-size: 18px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: white;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+     h1{
+            text-align: center;
+            text-decoration: underline;
+            margin-top: 20px;
+            margin-bottom: 20px
+        }
+
+        #name{
+            margin-top: 10%;
+            font-style: italic;
+            color: teal;
+        }
+
+        .container{
+            width: 70%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(5,auto);
+            margin: auto;
+            margin-top: 3%;
+            gap: 18px;
+            /* border: 1px solid; */
+        }
+
+        /* .box{
+            border: 1px solid red;
+        } */
+
+        .box>img{
+            width: 100%;
+            margin-top: 20px;
+        }
+
+
+        .para>a+p{
+            justify-content: flex-start;
+            padding-left: 15px;
+            font-size: 18px;
+            line-height: 140%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .para{
+            /* border: 1px solid red; */
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            background: #fff;
+            padding: 10px;
+            margin: -28px 0 0 16px;
+            position: relative;
+       }
+
+       a{
+            text-align: center;
+            color:black;
+            /* background-color: white; */
+            text-decoration: none;
+            font-family: 'Playfair Display',sans-serif;
+      }
+
+       a:nth-child(1){
+            text-decoration: underline;
+            text-decoration-color:rgb(194, 11, 11);
+            font-weight: bold;
+            color: #585858;
+            padding-left: 13px;
+            padding-top: 13px;
+            font-size: 20px;
+       }
+</style>
+<body>
+
+    <div id="main">
+        <div id="nav">
+           <h1 id="head">Firstpost</h1>
+    
+           <div id="logo">
+           
+    
+                <a href="https://www.facebook.com/firstpostin" target="_blank"> <img class="first"  src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688__340.png" alt="" srcset=""> </a>
+                <a href="https://twitter.com/firstpost" target="_blank"> <img class="first" src="https://cdn.pixabay.com/photo/2017/03/24/07/28/twitter-2170426__340.png" alt="" srcset=""></a>
+                <a href="https://www.instagram.com/firstpost/"> <img class="first" src="https://cdn.pixabay.com/photo/2016/08/01/21/00/icon-1562136__340.png" alt="" srcset=""></a>
+                <a href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured" rel="nofollow" target="_blank">  <img class="first" src="https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277__340.png" alt="" srcset=""> </a>
+                
+           </div> 
+        </div>
+    
+           <div id="content">
+                <p class="top"><a href="health.html">Health</a></p>
+                <p><a href="india.html">India</a></p>
+                <p><a href="world.html">World</a> </p>               
+                <p><a href="politcs.html">Politics</a></p>
+                <p><a href="auto.html">Auto</a></p>
+                <p><a href="opinion.html">Opinion</a></p>
+                <p><a href="sports.html">Sports</a></p>
+                <p><a href="cricket.html">Cricket</a></p>
+                <p> <a href="entertain.html">Entertainment</a></p>
+                <p><a href="tech.html">Tech</a></p>
+            </div>  
+        </div>
+    <h1 id="name">INDIA NEWS</h1>
+    <div class="container">
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/fpranking/1655350638894.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+           <div class="para">
+            <a href="india.html">India</a>
+            <a href="https://www.firstpost.com/india/explained-love-story-gone-wrong-hc-judges-daughter-arrested-six-years-after-sippy-sidhu-murder-10798671.html">
+                <h2>Love story gone wrong?: HC judge’s daughter arrested six years after Sippy Sidhu murder</h2>
+            </a>
+           </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Char-Dham-Yatra.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="india.html">India</a>
+                <a href="https://www.firstpost.com/india/char-dham-yatra-pilgrims-to-kedarnath-badrinath-gangotri-and-yamunotri-to-get-rs-1-lakh-accident-insurance-cover-10799801.html">
+                    <h2>Char Dham Yatra: Pilgrims to Kedarnath, Badrinath, Gangotri and Yamunotri to get Rs 1 lakh accident insurance cover</h2>
+                </a>
+                <p>The insurance coverage will be provided to pilgrims by United India Insurance Company Ltd on behalf of Manav Utthan Seva Samiti. It will be given to pilgrims if they meet with an accident on the premises</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/CBI1.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="india.html">India</a>
+                <a href="https://www.firstpost.com/india/cbi-quizzes-tmc-mla-saokat-molla-in-coal-pilferage-scam-10799061.html">
+                    <h2>CBI quizzes TMC MLA Saokat Molla in coal pilferage scam</h2>
+                </a>
+                <p>CBI official said that the TMC MLA also submitted documents related to his passport as well as investments and earnings to the CBI officers, which were sought from him</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2021/08/ATM-without-cash-news18-640.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="india.html">India</a>
+                <a href="https://www.firstpost.com/india/maharashtra-atm-dispenses-five-times-extra-cash-people-rush-to-withdraw-money-10799851.html">
+                    <h2>Maharashtra: ATM dispenses five times extra cash; people rush to withdraw money</h2>
+                </a>
+                <p>This happened on Wednesday at the Automated Teller Machine (ATM) of a private bank in Khaparkheda town, located around 30 km from Nagpur city
+                </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Delhi-rains.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="india.html">India</a>
+                <a href="https://www.firstpost.com/india/delhi-overnight-rains-leave-city-water-logged-more-thundershowers-predicted-for-this-evening-10799961.html">
+                    <h2>Delhi: Overnight rains leave city water-logged, more thundershowers predicted for this evening</h2>
+                </a>
+                <p>The minimum temperature on Thursday was recorded at 23.8 degrees Celsius, four notches below the season's average. The maximum temperature today is likely to be around 39 degrees Celsius</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2020/07/monsoon_640_362.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="india.html">India</a>
+                <a href="https://www.firstpost.com/india/southwest-monsoon-likely-to-advance-into-gangetic-west-bengal-by-tomorrow-10799811.html">
+                    <h2>Southwest monsoon likely to advance into Gangetic West Bengal by tomorrow</h2>
+                </a>
+                <p>IMD predicts thunderstorms in some areas of Kolkata on Thursday with day temperature likely to hover around 33 degrees Celsius.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/agniveer1.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="india.html">India</a>
+                <a href="https://www.firstpost.com/india/explained-the-new-graduation-programme-designed-for-indias-agniveers-10799761.html">
+                    <h2>Explained: The new graduation programme designed for India’s Agniveers</h2>
+                </a>
+                <p>The three-year Bachelor’s degree for the new recruits under the Agnipath scheme will recognise in-service training as 50 per cent of the credits while the remaining could be earned from a choice of courses. The programme would be recognised both in India and abroad for employment and education</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/large_file_plugin/2021/03/1616483916_watergate640.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+             <div class="para">
+                <a href="india.html">India</a>
+                <a href="https://www.firstpost.com/india/50-years-of-watergate-triggered-by-a-tape-the-scandal-that-toppled-the-presidency-of-richard-nixon-10799711.html">
+                    <h2>50 years of Watergate: Triggered by a tape, the scandal that toppled the presidency of Richard Nixon</h2>
+                </a>
+                <p>This major political scandal in the US involving the administration of the then President Richard Nixon which led to Nixon's resignation</p>
+             </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/TMC-delegation1.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="india.html">India</a>
+                <a href="https://www.firstpost.com/politics/release-rs-7130-crore-due-to-west-bengal-under-mgnrega-tmc-to-centre-10802751.html">
+                    <h2>Release Rs 7,130 crore due to West Bengal under MGNREGA: TMC to Centre</h2>
+                </a>
+                <p>In a letter to Union Rural Development Minister Giriraj Singh, TMC MPs said the department was not releasing the funds pending for over five months</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Jammu-and-Kashmir-security.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="india.html">India</a>
+                <a href="https://www.firstpost.com/india/jk-two-terrorists-who-killed-teacher-rajni-bala-shot-dead-by-security-forces-in-kulgam-10802721.html">
+                    <h2>J&K: Two terrorists who killed teacher Rajni Bala shot dead by security forces in Kulgam</h2>
+                </a>
+                <p>Rajni Bala was shot dead outside the government school where she worked in Gopalpara in Kulgam on 31 May</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

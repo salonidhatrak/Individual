@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto News</title>
+</head>
+<style>
+
+    #main{
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        background-color: white;
+        z-index: 30;
+    }
+    
+    #nav{
+        display: flex;
+        width: 100%;
+        /* height: 80px; */
+        /* border: 1px solid saddlebrown; */
+        background-color: black;
+        color: white;
+     
+    }
+    #head{
+        margin: auto;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    
+    #logo{
+        width: 30%;
+        /* border: 1px solid salmon; */
+       background-color: black;
+    }
+    
+    .first{
+        width: 30px;
+        height: 30px;
+        padding-right: 2%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    
+    #content{
+        display: flex;
+        width: 65%;
+        padding: 9px 10px 8px 10px;
+        margin: auto;
+        /* border: 1px solid saddlebrown; */
+       justify-content: space-between;
+        cursor: pointer;
+        font-size: 18px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: white;
+    }
+    
+     h1{
+            text-align: center;
+            text-decoration: underline;
+            /* margin-top: 20px; */
+            /* margin-bottom: 20px */
+        }
+    
+        #name{
+            margin-top: 10%;
+            font-style: italic;
+            color: teal;
+        }
+        .container{
+            width: 70%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(5,auto);
+            margin: auto;
+            margin-top: 3%;
+            gap: 18px;
+            /* border: 1px solid; */
+        }
+    
+        /* .box{
+            border: 1px solid red;
+        } */
+    
+        .box>img{
+            width: 100%;
+            margin-top: 20px;
+        }
+    
+    
+        .para>a+p{
+            justify-content: flex-start;
+            padding-left: 15px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 140%;
+        }
+    
+        .para{
+            /* border: 1px solid red; */
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            background: #fff;
+            padding: 10px;
+            margin: -28px 0 0 16px;
+            position: relative;
+       }
+    
+       a{
+            text-align: center;
+            color:black;
+            /* background-color: white; */
+            text-decoration: none;
+            font-family: 'Playfair Display',sans-serif;
+      }
+    
+       a:nth-child(1){
+            text-decoration: underline;
+            text-decoration-color:rgb(194, 11, 11);
+            font-size: 20px;
+            font-weight: bold;
+            color: #585858;
+            padding-left: 13px;
+            padding-top: 13px;
+            font-size: 20px;
+       }
+    </style>
+<body>
+     
+    <div id="main">
+        <div id="nav">
+           <h1 id="head">Firstpost</h1>
+    
+           <div id="logo">
+           
+    
+                <a href="https://www.facebook.com/firstpostin" target="_blank"> <img class="first"  src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688__340.png" alt="" srcset=""> </a>
+                <a href="https://twitter.com/firstpost" target="_blank"> <img class="first" src="https://cdn.pixabay.com/photo/2017/03/24/07/28/twitter-2170426__340.png" alt="" srcset=""></a>
+                <a href="https://www.instagram.com/firstpost/"> <img class="first" src="https://cdn.pixabay.com/photo/2016/08/01/21/00/icon-1562136__340.png" alt="" srcset=""></a>
+                <a href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured" rel="nofollow" target="_blank">  <img class="first" src="https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277__340.png" alt="" srcset=""> </a>
+                
+           </div> 
+        </div>
+    
+        <div id="content">
+            <p class="top"><a href="health.html">Health</a></p>
+            <p><a href="india.html">India</a></p>
+            <p><a href="world.html">World</a> </p>               
+            <p><a href="politcs.html">Politics</a></p>
+            <p><a href="auto.html">Auto</a></p>
+            <p><a href="opinion.html">Opinion</a></p>
+            <p><a href="sports.html">Sports</a></p>
+            <p><a href="cricket.html">Cricket</a></p>
+            <p><a href="entertain.html">Entertainment</a></p>
+            <p><a href="tech.html">Tech</a></p>
+
+        </div>  
+    </div>
+
+     <h1 id="name">Auto News</h1>
+     <div class="container">
+        <div class="box">
+            <img src="https://www.firstpost.com/wp-content/uploads/2022/06/Toyota-is-set-to-launch-3-new-SUVs-and-1-new-MPV-in-India-this-year.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="auto.html">Auto</a>
+                <a href="https://www.firstpost.com/auto/toyota-is-set-to-launch-3-new-suvs-and-1-new-mpv-in-india-this-year-10793261.html">
+                    <h2>Toyota is set to launch 3 new SUVs and 1 new MPV in India this year</h2>
+                </a>
+                <p>In a bid to consolidate its position in the Indian market, Japanese automaker Toyota will be launching at least 3 new SUVs and 1 new MPV this year. These include the Hyryder, Land Cruiser, Innova Hycross and the new generation of the urban cruiser.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Interiors-of-Upcoming-2022-Mahindra-Scorpio-N-officially-revealed-ahead-of-launch-2.jpg?impolicy=website&width=640&height=363" alt="">
+            <div class="para">
+                <a href="auto.html">Auto</a>
+                <a href="https://www.firstpost.com/auto/mahindra-unveils-interiors-of-scorpio-n-to-be-launched-on-june-27-10792731.html">
+                    <h2>Interiors of Upcoming 2022 Mahindra Scorpio-N officially revealed ahead of launch</h2>
+                </a>
+                <p>The upcoming generation of the Mahindra Scorpio-N will debut in India on June 27. Mahindra had previously unveiled the exteriors on social media. Now, the company has released a video which reveals a completely revamped cabin, with a better design and more tech onboard.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://www.firstpost.com/wp-content/uploads/2022/06/Mahindra-XUV300-will-soon-be-getting-an-all-new-version-in-India.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="auto.html">Auto</a>
+                <a href="https://www.firstpost.com/auto/mahindra-xuv300-sportz-edition-launch-soon-to-get-more-powerful-engine-10777491.html">
+                    <h2>Mahindra XUV300 will soon be getting an all new version in India, with more powerful engine</h2>
+                </a>
+                <p>Mahindra is all likely to launch a new version of the XUV300, called the Sportz Edition, in a couple of weeks. The new version will come with a new and more powerful engine, and if rumours are to be believed, a mild hybrid system as well.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://www.firstpost.com/wp-content/uploads/2022/06/wuling-air-ev-1.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="auto.html">Auto</a>
+                <a href="https://www.firstpost.com/category/auto">
+                    <h2>MG Motors’ entry-level EV for India uncovered, will be priced around Rs 10 Lakh</h2>
+                </a>
+                <p>MG Motors India is planning to launch an ultra affordable EV sometime next year, which would cost about Rs 10 Lakhs. The upcoming EV will be based on a kei-car design, with 2 sliding doors, and 39bhp drive train.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://www.firstpost.com/wp-content/uploads/2022/06/ezgif1.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="auto.html">Auto</a>
+                <a href="https://www.firstpost.com/auto/citroen-c3-to-launch-on-july-20-will-be-priced-very-competitively-10775461.html">
+                    <h2>Citroen C3 to go on sale on July 20, here’s everything you need to know about the upcoming crossover</h2>
+                </a>
+                <p>Citroen will be launching the C3 on the 20th of July this year. Because the car will be made in India, with 90 per cent localised parts, the French automaker has a great opportunity to price the car very competitively when they finally enter the highly competitive Indian mass market.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Porsche-Approved.jpg?impolicy=website&width=640&height=363" alt="">
+            <div class="para">
+                <a href="auto.html">Auto</a>
+                <a href="https://www.firstpost.com/auto/porsche-approved-pre-owned-vehicle-program-launched-in-india-10771831.html">
+                    <h2>Porsche Approved pre-owned vehicle programme launched in India</h2>
+                </a>
+                <p>Porsche hopes to reassure car buyers interested in purchasing pre-owned models with the help of this new business venture</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://www.firstpost.com/wp-content/uploads/2022/06/Mercedes-Benz-recalls-one-million-cars-mainly-SUVs-and-minivans-over-fear-of-faulty-brakes-1.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="auto.html">Auto</a>
+                <a href="https://www.firstpost.com/auto/mercedes-benz-recalls-one-million-cars-from-all-around-the-world-due-to-faulty-brake-booster-10763121.html">
+                    <h2>Mercedes Benz recalls one million cars, mainly SUVs and minivans, over fear of faulty brakes</h2>
+                </a>
+                <p>Fearing that the corrosion on the brake booster can lead to catastrophic brake failure in some of their cars, Mercedes-Benz has recalled about 1 million cars from all across the world. The affected cars mainly include the ML & the GL line of cars, and some of their popular minivans or MPVs.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/05/Hindustan-Amdassador1.jpg?impolicy=website&width=640&height=363" alt="">
+            <div class="para">
+                <a href="auto.html">Auto</a>
+                <a href="https://www.firstpost.com/auto/iconic-hindustan-ambassador-to-return-in-new-avatar-in-2-years-all-you-need-to-know-10721991.html">
+                    <h2>Iconic Hindustan Ambassador to return in new avatar in 2 years; all you need to know</h2>
+                </a>
+                <p>According to media reports, the joint venture between Hindustan Motors and Peugeot is in 'advanced stage' and Ambassador 2.0 is set to roll out in two years</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://www.firstpost.com/wp-content/uploads/2022/05/Uber.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="auto.html">Auto</a>
+                <a href="https://www.firstpost.com/auto/uber-india-announces-new-product-features-to-improve-overall-experience-10715321.html">
+                    <h2>Uber India announces plan to tackle ride cancellations - All you need to know</h2>
+                </a>
+                <p>Uber has highlighted a number of critical issues like ride cancellations, drivers not turning on the air conditioning during rides and refusal to accept online payments</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://www.firstpost.com/wp-content/uploads/2022/05/Keeway.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="auto.html">Auto</a>
+                <a href="https://www.firstpost.com/auto/keeway-unveils-three-new-products-for-the-indian-market-10706371.html">
+                    <h2>Keeway unveils three new products for the Indian market</h2>
+                </a>
+                <p>All three products from Keeway will come to India via the Completely Knocked Down (CKD) route </p>
+            </div>
+        </div>
+     </div>
+</body>
+</html>

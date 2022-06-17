@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politics News</title>
+</head>
+<style>
+
+#main{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: white;
+    z-index: 30;
+}
+
+#nav{
+    display: flex;
+    width: 100%;
+    /* height: 80px; */
+    /* border: 1px solid saddlebrown; */
+    background-color: black;
+    color: white;
+ 
+}
+#head{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+#logo{
+    width: 30%;
+    /* border: 1px solid salmon; */
+   background-color: black;
+}
+
+.first{
+    width: 30px;
+    height: 30px;
+    padding-right: 2%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+#content{
+    display: flex;
+    width: 65%;
+    padding: 9px 10px 8px 10px;
+    margin: auto;
+    /* border: 1px solid saddlebrown; */
+   justify-content: space-between;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: white;
+}
+
+ h1{
+        text-align: center;
+        text-decoration: underline;
+        /* margin-top: 20px; */
+        /* margin-bottom: 20px */
+    }
+
+    #name{
+            margin-top: 10%;
+            font-style: italic;
+            color: teal;
+        }
+        
+    .container{
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,auto);
+        margin: auto;
+        margin-top: 3%;
+        gap: 18px;
+        /* border: 1px solid; */
+    }
+
+    /* .box{
+        border: 1px solid red;
+    } */
+
+    .box>img{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .para>a+p{
+        justify-content: flex-start;
+        padding-left: 15px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 140%;
+    }
+
+    .para{
+        /* border: 1px solid red; */
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background: #fff;
+        padding: 10px;
+        margin: -28px 0 0 16px;
+        position: relative;
+   }
+
+   a{
+        text-align: center;
+        color:black;
+        /* background-color: white; */
+        text-decoration: none;
+        font-family: 'Playfair Display',sans-serif;
+  }
+
+   a:nth-child(1){
+        text-decoration: underline;
+        text-decoration-color:rgb(194, 11, 11);
+        font-size: 20px;
+        font-weight: bold;
+        color: #585858;
+        padding-left: 13px;
+        padding-top: 13px;
+        font-size: 20px;
+   }
+</style>
+<body>
+    <div id="main">
+        <div id="nav">
+           <h1 id="head">Firstpost</h1>
+    
+           <div id="logo">
+           
+    
+                <a href="https://www.facebook.com/firstpostin" target="_blank"> <img class="first"  src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688__340.png" alt="" srcset=""> </a>
+                <a href="https://twitter.com/firstpost" target="_blank"> <img class="first" src="https://cdn.pixabay.com/photo/2017/03/24/07/28/twitter-2170426__340.png" alt="" srcset=""></a>
+                <a href="https://www.instagram.com/firstpost/"> <img class="first" src="https://cdn.pixabay.com/photo/2016/08/01/21/00/icon-1562136__340.png" alt="" srcset=""></a>
+                <a href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured" rel="nofollow" target="_blank">  <img class="first" src="https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277__340.png" alt="" srcset=""> </a>
+                
+           </div> 
+        </div>
+    
+        <div id="content">
+            <p class="top"><a href="health.html">Health</a></p>
+            <p><a href="india.html">India</a></p>
+            <p><a href="world.html">World</a> </p>               
+            <p><a href="politcs.html">Politics</a></p>
+            <p><a href="auto.html">Auto</a></p>
+            <p><a href="opinion.html">Opinion</a></p>
+            <p><a href="sports.html">Sports</a></p>
+            <p><a href="cricket.html">Cricket</a></p>
+            <p><a href="entertain.html">Entertainment</a></p>
+            <p><a href="tech.html">Tech</a></p>
+
+        </div>  
+    </div>
+
+    <h1 id="name">Politics News</h1>
+    <div class="container">
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/fpranking/165254993616.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="politcs.html">Politics</a>
+                <a href="https://www.firstpost.com/india/sunil-jakhar-an-asset-congress-shouldnt-lose-him-says-navjot-sidhu-10674641.html">
+                    <h2>Sunil Jakhar an asset, Congress shouldn't lose him, says Navjot Sidhu</h2>
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/congress-protest-2.jpg?impolicy=website&width=640&height=363" alt="">
+            <div class="para">
+                <a href="politcs.html">Politics</a>
+                <a href="https://www.firstpost.com/politics/chandigarh-police-use-water-cannon-to-disperse-punjab-congress-workers-10800841.html">
+                    <h2>Chandigarh: Police use water cannon to disperse Punjab Congress workers</h2>
+                </a>
+                <p>A group of Congress leaders and workers on Thursday tried to take out a protest march to the Raj Bhavan to denounce the ‘undemocratic ways’ in which the party's leaders were being ‘targeted’ by the Centre</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/TKS-Elangovan-2.jpg?impolicy=website&width=640&height=363" alt="">
+            <div class="para">
+                <a href="politcs.html">Politics</a>
+                <a href="https://www.firstpost.com/politics/dmk-leader-defends-his-casteist-comment-hindi-will-reduce-tamils-to-status-of-shudras-10766371.html">
+                    <h2>DMK leader defends his casteist comment 'Hindi will reduce Tamils to status of 'shudras'</h2>
+                </a>
+                <p>TKS Elangovan also claimed that Hindi-speaking states in the country were not developed, while those with vernacular languages as mother tongue were doing well</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/large_file_plugin/2020/11/1606734684_KSEshwarappapti.jpeg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="politcs.html">Politics</a>
+                <a href="https://www.firstpost.com/politics/aap-demands-karnataka-bjp-leader-eshwarappas-arrest-for-his-national-flag-remark-10743601.html">
+                    <h2>AAP demands Karnataka BJP leader Eshwarappa's arrest for his national flag remark</h2>
+                </a>
+                <p>BJP MLA Eshwarappa has reportedly said the saffron flag has been respected for thousands of years and it will become the national flag one day</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/TMC-delegation1.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="politcs.html">Politics</a>
+                <a href="https://www.firstpost.com/politics/release-rs-7130-crore-due-to-west-bengal-under-mgnrega-tmc-to-centre-10802751.html">
+                    <h2>Release Rs 7,130 crore due to West Bengal under MGNREGA: TMC to Centre</h2>
+                </a>
+                <p>In a letter to Union Rural Development Minister Giriraj Singh, TMC MPs said the department was not releasing the funds pending for over five months</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/rsz_renuka_chowdhury.jpg?impolicy=website&width=640&height=363" alt="">
+            <div class="para">
+                <a href="politcs.html">Politics</a>
+                <a href="https://www.firstpost.com/politics/lost-my-balance-congress-leader-renuka-chowdhury-defends-grabbing-cops-collar-during-hyderabad-protests-10802291.html">
+                    <h2>'Lost my balance': Congress leader Renuka Chowdhury defends grabbing cop's collar during Hyderabad protests</h2>
+                </a>
+                <p>Chowdhury was seen engaging in a heated argument with the policeman as she held his collar. A case has been registered against the former union minister for assaulting a public servant</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Rahul-Gandhi1.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="politcs.html">Politics</a>
+                <a href="https://www.firstpost.com/politics/dont-take-agnipareeksha-of-unemployed-youths-by-making-them-walk-on-agnipath-rahul-to-pm-modi-10801041.html">
+                    <h2>Don't take 'agnipareeksha' of unemployed youths by making them walk on 'Agnipath': Rahul to PM Modi</h2>
+                </a>
+                <p>Protests against the Centre's 'Agnipath' scheme for hiring jawans on a short-term contractual basis were reported from various parts of the country on Thursday</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Vishva-Hindu-Parishad-VHP-members.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="politcs.html">Politics</a>
+                <a href="https://www.firstpost.com/politics/prophet-muhammad-row-vhp-bajrang-dal-demonstrate-in-delhi-against-violent-protest-10800411.html">
+                    <h2>Prophet Muhammad Row: VHP, Bajrang Dal demonstrate in Delhi against violent protest</h2>
+                </a>
+                <p>The VHP said the demonstrations have been organised outside at least 10 sub-divisional magistrate (SDM) offices in the national capital against the 'growing extremist incidents by Islamic Jihadi fundamentalists'</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/04/Rajnath-Singh11.jpg?impolicy=website&width=640&height=363" alt="">
+            <div class="para">
+                <a href="politcs.html">Politics</a>
+                <a href="https://www.firstpost.com/politics/rajnath-singh-nadda-reach-out-to-mamata-banerjee-other-oppn-leaders-as-bjp-seeks-consensus-on-presidential-candidate-10798231.html">
+                    <h2>Rajnath Singh, Nadda reach out to Mamata Banerjee, other Oppn leaders as BJP seeks consensus on presidential candidate</h2>
+                </a>
+                <p>Singh made the calls to Congress' Mallikarjun Kharge and Akhilesh Yadav besides some other leaders on a day when leaders of 17 opposition parties met in New Delhi to build a consensus on a joint Opposition candidate</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/rsz_opposition_meet_president.jpg?impolicy=website&width=640&height=363" alt="">
+            <div class="para">
+                <a href="politcs.html">Politics</a>
+                <a href="https://www.firstpost.com/politics/presidential-polls-sharad-pawar-opts-out-of-race-mamata-proposes-names-of-farooq-abdullah-gopalkrishna-gandhi-10797811.html">
+                    <h2>Presidential polls: Sharad Pawar opts out of race, Mamata proposes names of Farooq Abdullah & Gopalkrishna Gandhi</h2>
+                </a>
+                <p>Farooq Abdullah is the former chief minister of Jammu and Kashmir. Mahatma Gandhi's grandson Gopalkrishna Gandhi served as the governor of West Bengal</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

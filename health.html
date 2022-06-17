@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health News</title>
+</head>
+<style>
+
+#main{
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        background-color: white;
+        z-index: 30;
+    }
+
+    #nav{
+        display: flex;
+        width: 100%;
+        /* height: 80px; */
+        /* border: 1px solid saddlebrown; */
+        background-color: black;
+        color: white;
+     
+    }
+    #head{
+        margin: auto;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
+    #logo{
+        width: 30%;
+        /* border: 1px solid salmon; */
+       background-color: black;
+    }
+
+    .first{
+        width: 30px;
+        height: 30px;
+        padding-right: 2%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+    #content{
+        display: flex;
+        width: 70%;
+        padding: 9px 10px 8px 10px;
+        margin: auto;
+        /* border: 1px solid saddlebrown; */
+       justify-content: space-between;
+        cursor: pointer;
+        font-size: 18px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: white;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+  #name{
+            margin-top: 10%;
+            font-style: italic;
+            color: teal;
+        }
+
+#container{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,auto);
+    margin: auto;
+    margin-top: 3%;
+    gap: 18px;
+    /* border: 1px solid; */
+}
+
+/* .box{
+    border: 1px solid red;
+} */
+
+.box>img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.para>a+p{
+    justify-content: flex-start;
+    padding-left: 15px;
+    font-size: 18px;
+    line-height: 140%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para{
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background: #fff;
+    padding: 10px;
+    margin: -28px 0 0 16px;
+    position: relative;
+}
+
+a{
+    text-align: center;
+    color:black;
+    /* background-color: white; */
+    text-decoration: none;
+    font-family: 'Playfair Display',sans-serif;
+}
+
+a:nth-child(1){
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    color: #585858;
+    padding-left: 13px;
+    padding-top: 13px;
+}
+</style>
+<body>
+
+    <div id="main">
+        <div id="nav">
+           <h1 id="head">Firstpost</h1>
+    
+           <div id="logo">
+           
+    
+                <a href="https://www.facebook.com/firstpostin" target="_blank"> <img class="first"  src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688__340.png" alt="" srcset=""> </a>
+                <a href="https://twitter.com/firstpost" target="_blank"> <img class="first" src="https://cdn.pixabay.com/photo/2017/03/24/07/28/twitter-2170426__340.png" alt="" srcset=""></a>
+                <a href="https://www.instagram.com/firstpost/"> <img class="first" src="https://cdn.pixabay.com/photo/2016/08/01/21/00/icon-1562136__340.png" alt="" srcset=""></a>
+                <a href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured" rel="nofollow" target="_blank">  <img class="first" src="https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277__340.png" alt="" srcset=""> </a>
+                
+           </div> 
+        </div>
+    
+           <div id="content">
+                <p class="top"><a href="health.html">Health</a></p>
+                <p><a href="india.html">India</a></p>
+                <p><a href="world.html">World</a> </p>               
+                <p><a href="politcs.html">Politics</a></p>
+                <p><a href="auto.html">Auto</a></p>
+                <p><a href="opinion.html">Opinion</a></p>
+                <p><a href="sports.html">Sports</a></p>
+                <p><a href="cricket.html">Cricket</a></p>
+                <p> <a href="entertain.html">Entertainment</a></p>
+                <p><a href="tech.html">Tech</a></p>
+            </div>  
+        </div>
+    
+    <h1 id="name">HEALTH NEWS</h1>
+
+    <div id="container">
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/vax.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="health.html">HEALTH</a>
+                <a href="https://www.firstpost.com/health/india-to-soon-get-its-first-mrna-covid-19-vaccine-why-is-this-being-touted-as-a-gamechanger-10791791.html">
+                    <h2>India to soon get its first mRNA COVID-19 vaccine: Why is this being touted as a gamechanger?</h2>
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/01/leprosy-3.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="health.html">HEALTH</a>
+                <a href="https://www.firstpost.com/health/why-leprosy-elimination-must-not-be-forgotten-in-a-post-covid-world-10797421.html">
+                    <h2>Why leprosy elimination must not be forgotten in a post-COVID world</h2>
+                </a>
+                <p>Even though leprosy can be completely cured, the people affected by the disease are considered as social outcasts in many parts of the world</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/02/Pfizer.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="health.html">HEALTH</a>
+                <a href="https://www.firstpost.com/opinion/as-covid-19-cases-rise-vaccines-play-vital-role-to-prevent-mass-hospitalization-adverse-outcomes-10796841.html">
+                    <h2>As COVID-19 cases rise, vaccines play vital role to prevent mass hospitalization, adverse outcomes</h2>
+                </a>
+                <p>Vaccines play a crucial role in preventing infection, hospitalizations, and adverse outcomes which cause deaths</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/05/COVID-among-babies.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="health.html">HEALTH</a>
+                <a href="https://images.firstpost.com/wp-content/uploads/2022/05/COVID-among-babies.jpg?impolicy=website&width=640&height=363">
+                    <h2>From COVID-19 test for infants, to breastfeeding babies if positive; all you need to know if your child gets infected</h2>
+                </a>
+                <p>Babies may be at higher risk if they are premature or have another underlying serious illness or condition. Studies describing COVID-19 in newborns reflect that similar to other respiratory viruses</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/05/A-healthcare-worker-collects-a-nasal-swab-sample-of-a-woman-for-a-COVID-19-test.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="health.html">HEALTH</a>
+                <a href="https://www.firstpost.com/health/long-covid-19-affects-more-older-adults-vaccine-shots-dont-prevent-it-10720591.html">
+                    <h2>Long COVID-19 affects more older adults; vaccine shots don't prevent it</h2>
+                </a>
+                <p>Long COVID refers to any of more than two dozens symptoms that linger, recur or first appear at least one month after a coronavirus infection</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/640x320_1-2.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="health.html">HEALTH</a>
+                <a href="https://www.firstpost.com/health/performer-8-reviews-2022-truth-on-this-natural-testosterone-booster-exposed-10796151.html">
+                    <h2>Performer 8 Reviews (2022) - Truth On This Natural Testosterone Booster Exposed</h2>
+                </a>
+                <p>Stress, both in mental and physical form, can affect his performance and put their relationship at risk.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/640x320-61.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="health.html">HEALTH</a>
+                <a href="https://www.firstpost.com/health/phenq-reviews-what-is-the-truth-behind-this-fat-burners-fame-10753581.html">
+                    <h2>PhenQ Reviews – Facts That No One Will Tell You About This Weight Loss Formula</h2>
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/large_file_plugin/2021/06/1624073001_covidindiaa--ap.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="health.html">HEALTH</a>
+                <a href="https://www.firstpost.com/health/india-logs-8084-new-covid-19-infections-daily-positivity-rate-over-three-per-cent-says-health-ministry-10788101.html">
+                    <h2>India logs 8,084 new COVID-19 infections, daily positivity rate over three per cent says health ministry</h2>
+                </a>
+                <p>Active COVID-19 cases comprise 0.11 per cent of the total infections, while the national recovery rate was 98.68 per cent, the health ministry said</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

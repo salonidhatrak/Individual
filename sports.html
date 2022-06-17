@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports News</title>
+    <style>
+
+#main{
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        background-color: white;
+        z-index: 30;
+    }
+
+    #nav{
+        display: flex;
+        width: 100%;
+        /* height: 80px; */
+        /* border: 1px solid saddlebrown; */
+        background-color: black;
+        color: white;
+     
+    }
+    #head{
+        margin: auto;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
+    #logo{
+        width: 30%;
+        /* border: 1px solid salmon; */
+       background-color: black;
+    }
+
+    .first{
+        width: 30px;
+        height: 30px;
+        padding-right: 2%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+    #content{
+        display: flex;
+        width: 70%;
+        padding: 9px 10px 8px 10px;
+        margin: auto;
+        /* border: 1px solid saddlebrown; */
+       justify-content: space-between;
+        cursor: pointer;
+        font-size: 18px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: white;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            margin-top: 20px;
+            margin-bottom: 20px
+        }
+
+        #name{
+            margin-top: 10%;
+            font-style: italic;
+            color: teal;
+        }
+
+        #container{
+            width: 70%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(5,auto);
+            margin: auto;
+            margin-top: 3%;
+            gap: 18px;
+            /* border: 1px solid; */
+        }
+
+        /* .box{
+            border: 1px solid red;
+        } */
+
+        #box>img{
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .para>a+p{
+            justify-content: flex-start;
+            padding-left: 15px;
+            font-size: 18px;
+            line-height: 140%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .para{
+            /* border: 1px solid red; */
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            background: #fff;
+            padding: 10px;
+            margin: -28px 0 0 16px;
+            position: relative;
+            margin-top: -25px;
+       }
+
+       
+       a{
+        text-align: center;
+        color:black;
+        /* background-color: white; */
+        text-decoration: none;
+        font-family: 'Playfair Display',sans-serif;
+      }
+
+       a:nth-child(1){
+        text-decoration: underline;
+        text-decoration-color: red;
+        font-size: 20px;
+        font-weight: bold;
+        color: #585858;
+        padding-left: 13px;
+        padding-top: 13px;
+       }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="nav">
+           <h1 id="head">Firstpost</h1>
+    
+           <div id="logo">
+           
+    
+                <a href="https://www.facebook.com/firstpostin" target="_blank"> <img class="first"  src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688__340.png" alt="" srcset=""> </a>
+                <a href="https://twitter.com/firstpost" target="_blank"> <img class="first" src="https://cdn.pixabay.com/photo/2017/03/24/07/28/twitter-2170426__340.png" alt="" srcset=""></a>
+                <a href="https://www.instagram.com/firstpost/"> <img class="first" src="https://cdn.pixabay.com/photo/2016/08/01/21/00/icon-1562136__340.png" alt="" srcset=""></a>
+                <a href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured" rel="nofollow" target="_blank">  <img class="first" src="https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277__340.png" alt="" srcset=""> </a>
+                
+           </div> 
+        </div>
+    
+           <div id="content">
+                <p class="top"><a href="health.html">Health</a></p>
+                <p><a href="india.html">India</a></p>
+                <p><a href="world.html">World</a> </p>               
+                <p><a href="politcs.html">Politics</a></p>
+                <p><a href="auto.html">Auto</a></p>
+                <p><a href="opinion.html">Opinion</a></p>
+                <p><a href="sports.html">Sports</a></p>
+                <p><a href="cricket.html">Cricket</a></p>
+                <p> <a href="entertain.html">Entertainment</a></p>
+                <p><a href="tech.html">Tech</a></p>
+            </div>  
+        </div>  
+    <h1 id="name">SPORTS NEWS</h1>
+    <div id="container">
+        <div id="box">
+           <img src="https://images.firstpost.com/wp-content/uploads/fpranking/1655305574583.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+           <div class="para">
+            <a href="sports.html">SPORTS</a>
+            <a href="https://www.firstpost.com/sports/no-domestic-league-no-womens-football-afghanistans-future-is-uncertain-says-coach-anoush-dastgir-10798031.html">      
+                <h2>No domestic league, no women’s football, Afghanistan's future is uncertain’, says men's coach Anoush Dastgir</h2>
+            </a>
+           </div>
+        </div>
+        <div id="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2020/05/Australian-Grand-Prix-Getty-Images-1024_opt.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">   
+                <a href="sports.html">SPORTS</a> 
+                <a href="https://www.firstpost.com/sports/melbourne-to-host-australian-grand-prix-until-2035-10799161.html">
+                    <h2>Formula 1: Melbourne to host Australian Grand Prix until 2035</h2>
+                </a>
+                <p>The Australian Grand Prix will continue to be held in Melbourne until 2035 after the race organisers signed a new 10-year agreement, Formula One announced on Thursday.</p>
+            </div>
+        
+        </div>
+        <div id="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Jaylen-Brown-640.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="sports.html">SPORTS</a>
+                <a href="https://www.firstpost.com/sports/nba-bostons-jaylen-brown-defiant-as-celtics-face-must-win-warriors-clash-10799031.html">
+                    <h2>NBA: Boston's Jaylen Brown defiant as Celtics face must-win Warriors clash</h2>
+                </a>
+                <p>The Warriors moved one win away from their fourth title in eight years with a 104-94 victory in game five in San Francisco on Monday.</p>
+            </div>
+        </div>
+        <div id="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2020/12/Neeraj-Chopra-Asian-Games-AP-640.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="sports.html">SPORTS</a>
+                <a href="https://www.firstpost.com/sports/neeraj-chopra-overwhelmed-after-rewriting-national-record-in-finland-10797331.html">
+                    <h2>Neeraj Chopra overwhelmed after rewriting national record in Finland</h2>
+                </a>
+                <p>Neeraj Chopra took to Twitter to express his happiness with his personal best score, while also congratulating gold medallist Oliver Helander.</p>
+            </div>
+        </div>
+        <div id="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Anurag-Thakur1.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="sports.html">SPORTS</a>
+                <a href="https://www.firstpost.com/india/govt-taking-all-steps-for-safety-of-women-athletes-says-anurag-thakur-10798761.html">
+                    <h2>Govt taking all steps for safety of women athletes, says Anurag Thakur</h2>
+                </a>
+                <p>Regarding women's safety measures, Thakur said 'we are trying not only to issue guidelines but to pass on these to every sportsperson so that they are not uninformed and they can protect themselves and their dignity'</p>
+            </div>
+        </div>
+
+        <div id="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/05/Daniil-Medvedev.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="sports.html">SPORTS</a>
+                <a href="https://www.firstpost.com/sports/daniil-medvedev-hails-great-news-that-he-can-defend-us-open-crown-10798101.html">
+                    <h2>Daniil Medvedev hails 'great news' that he can defend US Open crown</h2>
+                </a>
+                <p>The Russian world number one will be forced to sit out Wimbledon after the grass-court Grand Slam event banned him and his compatriots and Belarusians due to the invasion of Ukraine.</p>
+            </div>
+        </div>
+
+        <div id="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/serena-williams.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="sports.html">SPORTS</a>
+                <a href="https://www.firstpost.com/sports/serena-williams-confirms-wimbledon-2022-participation-10793561.html">
+                   <h2>Serena Williams confirms Wimbledon 2022 participation</h2>
+                </a>
+                <p>Serena Williams last competed in the opening round of the same Major last year.</p>
+            </div>
+        </div>
+
+        <div id="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Chahal-vs-SA-Vizag-Sportzpics-640.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="sports.html">SPORTS</a>
+                <a href="https://www.firstpost.com/sports/yuzvendra-chahal-harshal-patel-shine-as-india-thump-south-africa-to-stay-alive-10794961.html">
+                    <h2>Yuzvendra Chahal, Harshal Patel shine as India thump South Africa in 3rd T20I to stay alive</h2>
+                </a>
+                <p>Then, Harshal, who returned his T20 best figures of 4-25, and Chahal 3-20, shared seven wickets to bowl out South Africa for 131, as India bounced back from their opening two losses.</p>
+            </div>
+        </div>
+
+        <div id="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/03/HSPrannoy640.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="sports.html">SPORTS</a>
+                <a href="https://www.firstpost.com/sports/indonesia-open-lakshya-sen-kidambi-srikanth-bow-out-in-first-round-10797661.html">
+                    <h2>Indonesia Open: Lakshya Sen, Kidambi Srikanth bow out in first round</h2>
+                </a>
+                <p>Sen was comprehensively beaten 10-21, 9-21 by Prannoy in a men's singles match that lasted a little more than half an hour.</p>
+            </div>
+        </div>
+
+        <div id="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/MoSalah.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="sports.html">SPORTS</a>
+                <a href="https://www.firstpost.com/sports/happy-birthday-mo-salah-relive-liverpool-stars-amazing-goal-against-manchester-city-last-season-10797541.html">
+                    <h2>Happy Birthday Mo Salah: Relive Liverpool star's amazing goal against Manchester City last season</h2>
+                </a>
+                <p>Mo Salah scored 23 goals in the 2021/22 Premier League season. The 30-year-old is on a career high after bagging several awards for his performance.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

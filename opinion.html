@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinion</title>
+</head>
+<style>
+
+    #main{
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        background-color: white;
+        z-index: 30;
+    }
+    
+    #nav{
+        display: flex;
+        width: 100%;
+        /* height: 80px; */
+        /* border: 1px solid saddlebrown; */
+        background-color: black;
+        color: white;
+     
+    }
+    #head{
+        margin: auto;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    
+    #logo{
+        width: 30%;
+        /* border: 1px solid salmon; */
+       background-color: black;
+    }
+    
+    .first{
+        width: 30px;
+        height: 30px;
+        padding-right: 2%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    
+    #content{
+        display: flex;
+        width: 65%;
+        padding: 9px 10px 8px 10px;
+        margin: auto;
+        /* border: 1px solid saddlebrown; */
+       justify-content: space-between;
+        cursor: pointer;
+        font-size: 18px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: white;
+    }
+    
+     h1{
+            text-align: center;
+            text-decoration: underline;
+            /* margin-top: 20px; */
+            /* margin-bottom: 20px */
+        }
+    
+        #name{
+            margin-top: 10%;
+            font-style: italic;
+            color: teal;
+        }
+        .container{
+            width: 70%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(5,auto);
+            margin: auto;
+            margin-top: 3%;
+            gap: 18px;
+            /* border: 1px solid; */
+        }
+    
+        /* .box{
+            border: 1px solid red;
+        } */
+    
+        .box>img{
+            width: 100%;
+            margin-top: 20px;
+        }
+    
+    
+        .para>a+p{
+            justify-content: flex-start;
+            padding-left: 15px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 140%;
+        }
+    
+        .para{
+            /* border: 1px solid red; */
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            background: #fff;
+            padding: 10px;
+            margin: -28px 0 0 16px;
+            position: relative;
+       }
+    
+       a{
+            text-align: center;
+            color:black;
+            /* background-color: white; */
+            text-decoration: none;
+            font-family: 'Playfair Display',sans-serif;
+      }
+    
+       a:nth-child(1){
+            text-decoration: underline;
+            text-decoration-color:rgb(194, 11, 11);
+            font-size: 20px;
+            font-weight: bold;
+            color: #585858;
+            padding-left: 13px;
+            padding-top: 13px;
+            font-size: 20px;
+       }
+    </style>
+<body>
+    
+    <div id="main">
+        <div id="nav">
+           <h1 id="head">Firstpost</h1>
+    
+           <div id="logo">
+           
+    
+                <a href="https://www.facebook.com/firstpostin" target="_blank"> <img class="first"  src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688__340.png" alt="" srcset=""> </a>
+                <a href="https://twitter.com/firstpost" target="_blank"> <img class="first" src="https://cdn.pixabay.com/photo/2017/03/24/07/28/twitter-2170426__340.png" alt="" srcset=""></a>
+                <a href="https://www.instagram.com/firstpost/"> <img class="first" src="https://cdn.pixabay.com/photo/2016/08/01/21/00/icon-1562136__340.png" alt="" srcset=""></a>
+                <a href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured" rel="nofollow" target="_blank">  <img class="first" src="https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277__340.png" alt="" srcset=""> </a>
+                
+           </div> 
+        </div>
+    
+        <div id="content">
+            <p class="top"><a href="health.html">Health</a></p>
+            <p><a href="india.html">India</a></p>
+            <p><a href="world.html">World</a> </p>               
+            <p><a href="politcs.html">Politics</a></p>
+            <p><a href="auto.html">Auto</a></p>
+            <p><a href="opinion.html">Opinion</a></p>
+            <p><a href="sports.html">Sports</a></p>
+            <p><a href="cricket.html">Cricket</a></p>
+            <p><a href="entertain.html">Entertainment</a></p>
+            <p><a href="tech.html">Tech</a></p>
+
+        </div>  
+    </div>
+
+        <h1 id="name">Opinion News</h1>
+
+        <div class="container">
+            <div class="box">
+                <img src="https://images.firstpost.com/wp-content/uploads/2021/03/Xi-640.jpg?impolicy=website&width=640&height=362" alt="">
+                <div class="para">
+                    <a href="opinion.html">Opinion</a>
+                    <a href="https://www.firstpost.com/opinion/forget-power-tussle-or-compromise-heres-why-xi-jinping-may-emerge-even-stronger-post-party-congress-10803261.html">
+                        <h2>Forget power tussle or compromise, here's why Xi Jinping may emerge even stronger post Party Congress</h2>
+                    </a>
+                    <p>Li Keqiang is not a challenger, but an insurance policy for the Chinese president</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Rashtrapati-Bhavan.jpg?impolicy=website&width=640&height=362" alt="">
+                <div class="para">
+                    <a href="opinion.html">Opinion</a>
+                    <a href="https://www.firstpost.com/opinion/presidential-polls-who-will-forge-opposition-unity-is-the-main-question-10803251.html">
+                        <h2>Presidential polls: Who will forge Opposition unity is the main question</h2>
+                    </a>
+                    <p>Sharad Pawar knows the Opposition does not have the numbers to win the presidential polls. At least two CMs, Naveen Patnaik and Jaganmohan Reddy, are holding their cards close. And Pawar has no wish to contest just for short-lived visibility and relevance</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://images.firstpost.com/wp-content/uploads/2021/05/shutterstock_573033001.jpg?impolicy=website&width=640&height=363" alt="">
+                <div class="para">
+                    <a href="opinion.html">Opinion</a>
+                    <a href="https://www.firstpost.com/opinion/off-centre-stop-harassing-and-imprisoning-citizens-for-social-media-posts-10803241.html">
+                        <h2>Off-centre | Stop harassing and imprisoning citizens for social media posts</h2>
+                    </a>
+                    <p>Incarcerating citizens for weeks on end for posting against politicians — this needs to stop immediately. Else, we will be a republic in which politicians are greater in the eyes of the law than ordinary citizens</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://images.firstpost.com/wp-content/uploads/2022/01/economy.jpg?impolicy=website&width=640&height=362" alt="">
+                <div class="para">
+                    <a href="opinion.html">Opinion</a>
+                    <a href="https://www.firstpost.com/opinion/make-in-india-how-pm-narendra-modis-pet-project-is-beyond-sloganeering-10802191.html">
+                        <h2>Make in India: How PM Narendra Modi’s pet project is beyond sloganeering</h2>
+                    </a>
+                    <p>Prime Minister Narendra Modi is personally driving a wave of changes that promises to modernise and open up the country’s economy</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://images.firstpost.com/wp-content/uploads/2020/11/IAF_PTI_640.jpg?impolicy=website&width=640&height=362" alt="">
+                <div class="para">
+                    <a href="opinion.html">Opinion</a>
+                    <a href="https://www.firstpost.com/opinion/agnipath-scheme-a-path-breaking-futuristic-initiative-that-should-be-welcomed-10801581.html">
+                        <h2>Agnipath scheme: A path-breaking, futuristic initiative that should be welcomed</h2>
+                    </a>
+                    <p>This somewhat revolutionary change in military affairs has been under deliberation and fine tuning for implementation for nearly two years. The government and the armed forces are on the same page</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://images.firstpost.com/wp-content/uploads/2022/06/shiningvaleofficialtrailerignblogroll-1644422102773.jpg?impolicy=website&width=640&height=362" alt="">
+                <div class="para">
+                    <a href="opinion.html">Opinion</a>
+                    <a href="https://www.firstpost.com/opinion/why-shining-vale-presents-both-the-apprehensions-of-second-wave-feminism-and-a-response-to-it-10801531.html">
+                        <h2>Why Shining Vale presents both the apprehensions of second-wave feminism and a response to it</h2>
+                    </a>
+                    <p>It’s no doubt that Shining Vale is a big swing; it has an optical density and curious energy that must be applauded and for once I don’t care if it fares well as a comedy or a horror.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://images.firstpost.com/wp-content/uploads/2022/06/gujarat-riots.jpg?impolicy=website&width=640&height=363" alt="">
+                <div class="para">
+                    <a href="opinion.html">Opinion</a>
+                    <a href="https://www.firstpost.com/opinion/two-decades-of-gujarat-riots-when-narratives-are-distorted-and-grievances-manufactured-to-create-victimhood-10798911.html">
+                        <h2>Two decades of Gujarat riots: When narratives are distorted and grievances manufactured to create victimhood</h2>
+                    </a>
+                    <p>A closer scrutiny of the available details suggests that the alleged mishandling of the 2002 riots wasn’t the real reason for villainising Narendra Modi. It was the fury and the fear of Modi dismantling the Nehruvian consensus</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://images.firstpost.com/wp-content/uploads/2022/06/army-pic1.jpg?impolicy=website&width=640&height=362" alt="">
+                <div class="para">
+                    <a href="opinion.html">Opinion</a>
+                    <a href="https://www.firstpost.com/opinion/agnipath-scheme-checkmate-the-false-narrative-as-its-a-game-changer-for-india-and-the-defence-forces-10798871.html">
+                        <h2>Agnipath scheme: Checkmate the false narrative as it’s a game-changer for India and the defence forces</h2>
+                    </a>
+                    <p>A scheme, curated for the good of the military and the nation, is unnecessarily getting flak and is getting stuck in a wrong pension-saving narrative</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://images.firstpost.com/wp-content/uploads/2020/08/home-ministry_640.jpg?impolicy=website&width=640&height=362" alt="">
+                <div class="para">
+                    <a href="opinion.html">Opinion</a>
+                    <a href="https://www.firstpost.com/opinion/india-takes-critical-and-bold-steps-to-bolster-internal-security-10798191.html">
+                        <h2>India takes critical and bold steps to bolster internal security</h2>
+                    </a>
+                    <p>While the number of civilian casualties and those of the paramilitary forces has come down drastically in recent years, the number of terrorists neutralised has gone up exponentially</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://images.firstpost.com/wp-content/uploads/2021/11/BTS.jpeg?impolicy=website&width=640&height=362" alt="">
+                <div class="para">
+                    <a href="opinion.html">Opinion</a>
+                    <a href="https://www.firstpost.com/opinion/explained-why-did-bts-go-on-a-hiatus-the-phenomenon-of-boy-bands-breaking-up-and-why-it-is-so-common-10796171.html">
+                        <h2>Explained: Why did BTS go on a ‘hiatus’? The phenomenon of boy bands breaking up and why it is so common</h2>
+                    </a>
+                    <p>Boy bands, at least the ones that are immensely popular and have a massive fan base, are known to either disband or go on an indefinite ‘hiatus’ - be it One Direction, The Jonas Brothers, Backstreet Boys or NSYNC.</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

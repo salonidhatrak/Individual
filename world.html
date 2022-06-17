@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World News</title>
+</head>
+<style>
+
+    #main{
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        background-color: white;
+        z-index: 30;
+    }
+
+    #nav{
+        display: flex;
+        width: 100%;
+        /* height: 80px; */
+        /* border: 1px solid saddlebrown; */
+        background-color: black;
+        color: white;
+     
+    }
+    #head{
+        margin: auto;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
+    #logo{
+        width: 30%;
+        /* border: 1px solid salmon; */
+       background-color: black;
+    }
+
+    .first{
+        width: 30px;
+        height: 30px;
+        padding-right: 2%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+    #content{
+        display: flex;
+        width: 65%;
+        padding: 9px 10px 8px 10px;
+        margin: auto;
+        /* border: 1px solid saddlebrown; */
+       justify-content: space-between;
+        cursor: pointer;
+        font-size: 18px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: white;
+    }
+
+     h1{
+            text-align: center;
+            text-decoration: underline;
+            /* margin-top: 20px; */
+            /* margin-bottom: 20px */
+        }
+
+        #name{
+            margin-top: 10%;
+            font-style: italic;
+            color: teal;
+        }
+        .container{
+            width: 70%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(5,auto);
+            margin: auto;
+            margin-top: 3%;
+            gap: 18px;
+            /* border: 1px solid; */
+        }
+
+        /* .box{
+            border: 1px solid red;
+        } */
+
+        .box>img{
+            width: 100%;
+            margin-top: 20px;
+        }
+
+
+        .para>a+p{
+            justify-content: flex-start;
+            padding-left: 15px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 140%;
+        }
+
+        .para{
+            /* border: 1px solid red; */
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            background: #fff;
+            padding: 10px;
+            margin: -28px 0 0 16px;
+            position: relative;
+       }
+
+       a{
+            text-align: center;
+            color:black;
+            /* background-color: white; */
+            text-decoration: none;
+            font-family: 'Playfair Display',sans-serif;
+      }
+
+       a:nth-child(1){
+            text-decoration: underline;
+            text-decoration-color:rgb(194, 11, 11);
+            font-size: 20px;
+            font-weight: bold;
+            color: #585858;
+            padding-left: 13px;
+            padding-top: 13px;
+            font-size: 20px;
+       }
+</style>
+<body>
+
+    <div id="main">
+        <div id="nav">
+           <h1 id="head">Firstpost</h1>
+    
+           <div id="logo">
+           
+    
+                <a href="https://www.facebook.com/firstpostin" target="_blank"> <img class="first"  src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688__340.png" alt="" srcset=""> </a>
+                <a href="https://twitter.com/firstpost" target="_blank"> <img class="first" src="https://cdn.pixabay.com/photo/2017/03/24/07/28/twitter-2170426__340.png" alt="" srcset=""></a>
+                <a href="https://www.instagram.com/firstpost/"> <img class="first" src="https://cdn.pixabay.com/photo/2016/08/01/21/00/icon-1562136__340.png" alt="" srcset=""></a>
+                <a href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured" rel="nofollow" target="_blank">  <img class="first" src="https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277__340.png" alt="" srcset=""> </a>
+                
+           </div> 
+        </div>
+    
+        <div id="content">
+            <p class="top"><a href="health.html">Health</a></p>
+            <p><a href="india.html">India</a></p>
+            <p><a href="world.html">World</a> </p>               
+            <p><a href="politcs.html">Politics</a></p>
+            <p><a href="auto.html">Auto</a></p>
+            <p><a href="opinion.html">Opinion</a></p>
+            <p><a href="sports.html">Sports</a></p>
+            <p><a href="cricket.html">Cricket</a></p>
+            <p><a href="entertain.html">Entertainment</a></p>
+            <p><a href="tech.html">Tech</a></p>
+
+        </div>  
+    </div>
+
+    <h1 id="name">WORLD NEWS</h1>
+    <div class="container">
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2020/09/China-US-reuters-640.jpg?impolicy=website&width=640&height=363" alt="">
+            <div class="para">
+                <a href="world.html">World</a>
+                <a href="https://www.firstpost.com/world/explained-why-us-and-china-are-at-loggerheads-over-taiwan-10797861.html">
+                    <h2>Explained: Why US and China are at loggerheads over Taiwan</h2>
+                </a>
+                <p>Though tensions between Washington and Beijing have recently escalated over Taipei, experts say there is little cause for concern that a full-blown war will break out</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/US-Defense-Secretary-Lloyd-Austin-1.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="world.html">World</a>
+                <a href="https://www.firstpost.com/world/us-and-several-european-nations-contribute-new-military-aid-for-ukraine-check-details-here-10801351.html">
+                    <h2>US and several European nations contribute new military aid for Ukraine, check details here</h2>
+                </a>
+                <p>The $1 billion package provided by the US to Ukraine includes $350 million in rapid, off-the-shelf deliveries by the Pentagon and $650 million in other longer-term purchases</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Radha_640.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="world.html">World</a>
+                <a href="https://www.firstpost.com/world/joe-biden-nominates-indian-american-radha-iyengar-plumb-to-top-pentagon-position-10799101.html">
+                    <h2>Joe Biden nominates Indian-American Radha Iyengar Plumb to top Pentagon position</h2>
+                </a>
+                <p>Currently serving as the Chief of Staff to the Deputy Secretary of Defense, Plumb was on Wednesday nominated to the post of Deputy Under Secretary of Defense for Acquisition and Sustainment</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/North-Korea-Covid_EDIT.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="world.html">World</a>
+                <a href="https://images.firstpost.com/wp-content/uploads/2022/06/North-Korea-Covid_EDIT.jpg?impolicy=website&width=640&height=362">
+                    <h2>North Korea reports another infectious disease outbreak amid COVID-19 wave</h2>
+                </a>
+                <p>Some observers say the 'an enteric epidemic' refers to an infectious disease like typhoid, dysentery or cholera, which routinely occur in North Korea</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/John-Hinckley-Jr.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="world.html">World</a>
+                <a href="https://www.firstpost.com/world/john-hinckley-jr-who-shot-ronald-reagan-released-after-41-years-10799481.html">
+                    <h2>John Hinckley Jr, who shot Ronald Reagan, released after 41 years</h2>
+                </a>
+                <p>US District Court Judge Paul L Friedman in Washington said he would free Hinckley on 15 June if he continued to remain mentally stable in the community in Virginia where he has lived since 2016</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/rsz_colombia_drug_bust.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="world.html">World</a>
+                <a href="https://www.firstpost.com/world/colombian-police-seize-1300-kilos-of-cocaine-disguised-as-potatoes-watch-video-here-10802301.html">
+                    <h2>Colombian Police seize 1,300 kilos of cocaine disguised as potatoes; watch video here</h2>
+                </a>
+                <p>According to 9News, around 50 people and sniffer dogs worked on the mission. The police got into action after receiving a tip from an anonymous caller. The absence of an expiry date on the packages alarmed officials</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/frog-video1.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="world.html">World</a>
+                <a href="https://www.firstpost.com/world/uk-man-posts-video-of-1-million-strong-frog-army-slammed-by-internet-users-10802051.html">
+                    <h2>UK man posts video of 1 million strong 'frog army', slammed by internet users</h2>
+                </a>
+                <p>A marine biologist and researcher for BBC Wildlife, Dawood Qureshi, said that breeding these many frogs can create an influx of the amphibians</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/bulldog1.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="world.html">World</a>
+                <a href="https://www.firstpost.com/world/god-save-the-english-bulldog-why-the-breed-faces-a-ban-in-the-uk-10802411.html">
+                    <h2>God save the English Bulldog! Why the breed faces a ban in the UK</h2>
+                </a>
+                <p>The English Bulldog, with its excessive folds, is one of the most popular breeds in Britain. It is also the unhealthiest. Vets are urging people not to buy them</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Chicken-AFP.jpg?impolicy=website&width=640&height=362" alt="" srcset="">
+            <div class="para">
+                <a href="world.html">World</a>
+                <a href="https://www.firstpost.com/world/high-quality-how-cannabis-fed-chickens-could-help-in-weaning-off-the-poultry-from-antibiotics-10802171.html">
+                    <h2>High Quality: How cannabis-fed chickens could help in weaning poultry off antibiotics</h2>
+                </a>
+                <p>Researchers at Thailand's Chiang Mai University have been studying the impact of feeding cannabis to chicken, as farmers have claimed it improved the quality of meat and eggs</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Joe-Biden.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
+            <div class="para">
+                <a href="world.html">World</a>
+                <a href="https://www.firstpost.com/world/joe-biden-signs-new-lgbt-executive-order-says-pride-is-back-at-the-white-house-10800331.html">
+                    <h2>'Joe Biden signs new LGBT executive order, says 'pride is back at the White House'</h2>
+                </a>
+                <p>The order seeks to discourage 'conversion therapy' — a discredited practice that aims to change a person’s sexual orientation or gender identity — while also promoting gender-affirming surgery and expanding foster care protections for gay and transgender parents and children</p>
+            </div>
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    #main{
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        background-color: white;
+        z-index: 30;
+    }
+    
+    #nav{
+        display: flex;
+        width: 100%;
+        /* height: 80px; */
+        /* border: 1px solid saddlebrown; */
+        background-color: black;
+        color: white;
+     
+    }
+    #head{
+        margin: auto;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    
+    #logo{
+        width: 30%;
+        /* border: 1px solid salmon; */
+       background-color: black;
+    }
+    
+    .first{
+        width: 30px;
+        height: 30px;
+        padding-right: 2%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    
+    #content{
+        display: flex;
+        width: 65%;
+        padding: 9px 10px 8px 10px;
+        margin: auto;
+        /* border: 1px solid saddlebrown; */
+       justify-content: space-between;
+        cursor: pointer;
+        font-size: 18px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: white;
+    }
+    
+     h1{
+            text-align: center;
+            text-decoration: underline;
+            /* margin-top: 20px; */
+            /* margin-bottom: 20px */
+        }
+    
+        #name{
+            margin-top: 10%;
+            font-style: italic;
+            color: teal;
+        }
+        .container{
+            width: 70%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(5,auto);
+            margin: auto;
+            margin-top: 3%;
+            gap: 18px;
+            /* border: 1px solid; */
+        }
+    
+        /* .box{
+            border: 1px solid red;
+        } */
+    
+        .box>img{
+            width: 100%;
+            margin-top: 20px;
+        }
+    
+    
+        .para>a+p{
+            justify-content: flex-start;
+            padding-left: 15px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 140%;
+        }
+    
+        .para{
+            /* border: 1px solid red; */
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            background: #fff;
+            padding: 10px;
+            margin: -28px 0 0 16px;
+            position: relative;
+       }
+    
+       a{
+            text-align: center;
+            color:black;
+            /* background-color: white; */
+            text-decoration: none;
+            font-family: 'Playfair Display',sans-serif;
+      }
+    
+       a:nth-child(1){
+            text-decoration: underline;
+            text-decoration-color:rgb(194, 11, 11);
+            font-size: 20px;
+            font-weight: bold;
+            color: #585858;
+            padding-left: 13px;
+            padding-top: 13px;
+            font-size: 20px;
+       }
+    </style>
+<body>
+    <div id="main">
+        <div id="nav">
+           <h1 id="head">Firstpost</h1>
+    
+           <div id="logo">
+           
+    
+                <a href="https://www.facebook.com/firstpostin" target="_blank"> <img class="first"  src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688__340.png" alt="" srcset=""> </a>
+                <a href="https://twitter.com/firstpost" target="_blank"> <img class="first" src="https://cdn.pixabay.com/photo/2017/03/24/07/28/twitter-2170426__340.png" alt="" srcset=""></a>
+                <a href="https://www.instagram.com/firstpost/"> <img class="first" src="https://cdn.pixabay.com/photo/2016/08/01/21/00/icon-1562136__340.png" alt="" srcset=""></a>
+                <a href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured" rel="nofollow" target="_blank">  <img class="first" src="https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277__340.png" alt="" srcset=""> </a>
+                
+           </div> 
+        </div>
+    
+        <div id="content">
+            <p class="top"><a href="health.html">Health</a></p>
+            <p><a href="india.html">India</a></p>
+            <p><a href="world.html">World</a> </p>               
+            <p><a href="politcs.html">Politics</a></p>
+            <p><a href="auto.html">Auto</a></p>
+            <p><a href="opinion.html">Opinion</a></p>
+            <p><a href="sports.html">Sports</a></p>
+            <p><a href="cricket.html">Cricket</a></p>
+            <p><a href="entertain.html">Entertainment</a></p>
+            <p><a href="tech.html">Tech</a></p>
+
+        </div>  
+    </div>
+
+     <h1 id="name">CRICKET NEWS</h1>
+
+     <div class="container">
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/fpranking/1655364691328.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="cricket.html">Cricket</a>
+                <a href="https://www.firstpost.com/firstcricket/sports-news/shahid-afridi-questions-virat-kohlis-attitude-does-he-really-even-want-to-be-no-1-again-10800471.html">
+                    <h2>Shahid Afridi questions Virat Kohli's attitude: 'Does he really even want to be No.1 again?'</h2>
+                </a>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
