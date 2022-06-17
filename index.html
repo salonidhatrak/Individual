@@ -5,125 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<style>
 
-    #main{
-        position: fixed;
-        width: 100%;
-        top: 0px;
-        background-color: white;
-        z-index: 30;
-    }
-
-    #nav{
-        display: flex;
-        width: 100%;
-        /* height: 80px; */
-        /* border: 1px solid saddlebrown; */
-        background-color: black;
-        color: white;
-     
-    }
-    #head{
-        margin: auto;
-        text-align: center;
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
-
-
-    #logo{
-        width: 30%;
-        /* border: 1px solid salmon; */
-       background-color: black;
-    }
-
-    .first{
-        width: 30px;
-        height: 30px;
-        padding-right: 2%;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        cursor: pointer;
-    }
-
-    #content{
-        display: flex;
-        width: 65%;
-        padding: 9px 10px 8px 10px;
-        margin: auto;
-        /* border: 1px solid saddlebrown; */
-       justify-content: space-between;
-        cursor: pointer;
-        font-size: 18px;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        background-color: white;
-    }
-
-     h1{
-            text-align: center;
-            text-decoration: underline;
-            /* margin-top: 20px; */
-            /* margin-bottom: 20px */
-        }
-        .container{
-            width: 70%;
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-template-rows: repeat(5,auto);
-            margin: auto;
-            margin-top: 9%;
-            gap: 18px;
-            /* border: 1px solid; */
-        }
-
-        /* .box{
-            border: 1px solid red;
-        } */
-
-        .box>img{
-            width: 100%;
-            margin-top: 20px;
-        }
-
-
-        .para>a+p{
-            justify-content: flex-start;
-            padding-left: 15px;
-            font-size: 18px;
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 140%;
-        }
-
-        .para{
-            /* border: 1px solid red; */
-            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-            background: #fff;
-            padding: 10px;
-            margin: -28px 0 0 16px;
-            position: relative;
-       }
-
-       a{
-            text-align: center;
-            color:black;
-            /* background-color: white; */
-            text-decoration: none;
-            font-family: 'Playfair Display',sans-serif;
-      }
-
-       a:nth-child(1){
-            text-decoration: underline;
-            text-decoration-color:rgb(194, 11, 11);
-            font-size: 20px;
-            font-weight: bold;
-            color: #585858;
-            padding-left: 13px;
-            padding-top: 13px;
-            font-size: 20px;
-       }
-</style>
 <body>
     <div id="main">
         <div id="nav">
@@ -224,16 +108,27 @@
         </div>
 
         <div class="box">
-            <img src="https://images.firstpost.com/wp-content/uploads/fpranking/1655364691328.jpg?impolicy=website&width=640&height=362" alt="">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/02/Pfizer.jpg?impolicy=website&width=640&height=363" alt="" srcset="">
             <div class="para">
-                <a href="cricket.html">Cricket</a>
-                <a href="https://www.firstpost.com/firstcricket/sports-news/shahid-afridi-questions-virat-kohlis-attitude-does-he-really-even-want-to-be-no-1-again-10800471.html">
-                    <h2>Shahid Afridi questions Virat Kohli's attitude: 'Does he really even want to be No.1 again?'</h2>
+                <a href="health.html">HEALTH</a>
+                <a href="https://www.firstpost.com/opinion/as-covid-19-cases-rise-vaccines-play-vital-role-to-prevent-mass-hospitalization-adverse-outcomes-10796841.html">
+                    <h2>As COVID-19 cases rise, vaccines play vital role to prevent mass hospitalization, adverse outcomes</h2>
                 </a>
+                <p>Vaccines play a crucial role in preventing infection, hospitalizations, and adverse outcomes which cause deaths</p>
             </div>
         </div>
 
-
+        <div class="box">
+            <img src="https://images.firstpost.com/wp-content/uploads/2022/06/Johnny-Depp-Camille-Vasquez-AFP.jpg?impolicy=website&width=640&height=362" alt="">
+            <div class="para">
+                <a href="entertain.html">Entertainment</a>
+                <a href="https://www.firstpost.com/entertainment/johnny-depp-will-be-back-in-court-soon-with-camille-vasquez-what-did-he-do-now-10802641.html">
+                    <h2>Johnny Depp will be back in court soon with Camille Vasquez: What did he do now?</h2>
+                </a>
+                <p>Camille Vasquez was the surprise star of the legal team that successfully argued the defamation case against Amber Heard for Johnny Depp. She will once again represent the actor in a personal injury lawsuit filed against him by Gregg 'Rocky' Brooks, location manager on the 2018 movie 'City of Lies'</p>
+            </div>
+        </div>
+    
      </div>
     
 </body>
